@@ -8,6 +8,6 @@ class CustomController extends FrontendController
 {
     public function portalAction()
     {
-        return $this->render('custom/portal.html.twig');
+        $this->render('layouts/custom/portal.html.twig');
     }
 }
